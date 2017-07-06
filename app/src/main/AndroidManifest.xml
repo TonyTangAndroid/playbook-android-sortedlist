@@ -16,14 +16,16 @@
             android:name=".part5.PagingActivity"
             android:label="Pagination">
         </activity>
-        <activity android:name=".ArticleSortOptionsActivity"/>
-        <activity
-            android:name=".part1.IntegerListActivity"
-            android:label="Integer List">
+        <activity android:name=".ArticleSortOptionsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".part1.IntegerListActivity"
+            android:label="Integer List">
 
         </activity>
         <activity
