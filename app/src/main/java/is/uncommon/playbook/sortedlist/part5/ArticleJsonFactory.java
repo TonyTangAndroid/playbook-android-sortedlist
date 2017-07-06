@@ -5,7 +5,7 @@ import com.squareup.moshi.JsonAdapter;
 
 @MoshiAdapterFactory
 public abstract class ArticleJsonFactory implements JsonAdapter.Factory {
-  public static JsonAdapter.Factory create() {
-    return new AutoValueMoshi_ArticleJsonFactory();
-  }
+    public static JsonAdapter.Factory create() {
+        return new AutoValueMoshi_ArticleJsonFactory();
+    }
 }

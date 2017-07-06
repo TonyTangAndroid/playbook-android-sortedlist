@@ -1,7 +1,9 @@
 package is.uncommon.playbook.sortedlist;
 
 import android.app.Application;
+
 import net.danlew.android.joda.JodaTimeAndroid;
+
 import timber.log.Timber;
 
 /**
@@ -9,9 +11,10 @@ import timber.log.Timber;
  */
 
 public class MainApplication extends Application {
-  @Override public void onCreate() {
-    super.onCreate();
-    JodaTimeAndroid.init(this);
-    Timber.plant(new Timber.DebugTree());
-  }
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        JodaTimeAndroid.init(this);
+        Timber.plant(new Timber.DebugTree());
+    }
 }
